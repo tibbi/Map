@@ -1,7 +1,7 @@
 var DEF_LAT = 20;
 var DEF_LNG = 0;
 var DEF_ZOOM_OUT = 3;
-var DEF_ZOOM_IN = 16;
+var DEF_ZOOM_IN = 17;
 
 var lat = isCorrect(getParameterByName('a')) ? Number(getParameterByName('a')) : DEF_LAT;
 var lng = isCorrect(getParameterByName('n')) ? Number(getParameterByName('n')) : DEF_LNG;
