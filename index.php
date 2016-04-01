@@ -2,8 +2,9 @@
 <html>
     <!-- author: https://github.com/tibbi -->
     <head>
-        <title>Map</title>
+        <title>Simple Map</title>
         <meta name="viewport" content="initial-scale=1.0">
+        <meta name="author" content="tibbi">
         <meta charset="utf-8">
 
         <link rel="shortcut icon" href="favicon.png">
