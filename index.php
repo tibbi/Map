@@ -14,7 +14,7 @@
     <div id="map"></div>
 
     <script src="assets/js/script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHhF8xVxqRSSkvRUA4jqO1FampbdGy444&callback=initMap" async defer></script>
   </body>
 </html>
 
