@@ -9,6 +9,14 @@
 
         <link rel="shortcut icon" href="favicon.png">
         <link href="assets/css/style.css" rel="stylesheet">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() { 
+            if (window.location.protocol != "https:") {
+                window.location = 'https://' + window.location.hostname + window.location.pathname + window.location.hash;
+            }
+        }, false);
+    </script>
   </head>
   <body>
     <div id="map"></div>
@@ -17,4 +25,3 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHhF8xVxqRSSkvRUA4jqO1FampbdGy444&callback=initMap" async defer></script>
   </body>
 </html>
-
